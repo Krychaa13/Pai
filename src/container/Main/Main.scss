@@ -1,0 +1,73 @@
+.App-Main {
+    height: 75vh;
+    padding: 50px 50px;
+    .Main1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .Small-glass {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 120px;
+            cursor: pointer;
+            div {
+                height: 150px;
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+
+                img {
+                    width: 70px;
+                    height: auto;
+                }
+            } 
+            p {
+                text-align: center;
+            }
+        }
+        .Medium-glass {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 120px;
+            cursor: pointer;
+
+            div {
+                height: 150px;
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+
+                img {
+                    width: 90px;
+                    height: auto;
+                }
+            } 
+            p {
+                text-align: center;
+            }
+        }
+        .Large-glass {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 120px;
+            cursor: pointer;
+
+            div {
+                height: 150px;
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+                img {
+                    width: 120px;
+                    height: auto;
+                }
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
